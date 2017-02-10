@@ -1,7 +1,13 @@
 {
   "name": "electron-exe",
   "version": "0.1.0",
+  "scripts": {
+    "build-win32": "electron-packager --platform=win32 ."
+  },
   "dependencies": {
     "electron": "^1.4.15"
+  },
+  "devDependencies": {
+    "electron-packager": "^8.5.1"
   }
 }
